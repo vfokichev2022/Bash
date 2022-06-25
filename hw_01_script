@@ -1,0 +1,10 @@
+#!/bin/bash
+# hw_01
+cd tt1
+mkdir step1 step2 step3
+cd step2
+touch list1.txt list2.txt list3.txt data1.json data2.json
+mkdir point1 point2 point3
+ls -l
+mv list1.txt ../step1/list1.txt
+mv list2.txt ../step1/list2.txt
